@@ -1,0 +1,97 @@
+.t {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    background-color: rgb(232, 246, 245);
+}
+
+.t-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.t-logo img {
+    width: 120px;
+}
+
+.t-logo h2 {
+    margin: 0;
+    color: rgb(26, 167, 161);
+}
+
+.t-logo p {
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: rgb(0, 77, 77);
+}
+
+.t-info {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.t-info h4 {
+    margin: 0;
+    font-size: 12px;
+    color: rgb(26, 167, 161);
+}
+
+.t-info span {
+    font-size: 14px;
+    color: rgb(0, 77, 77);
+}
+
+.divide {
+    width: 1px;
+    height: 35px;
+    background-color: rgb(192, 224, 222);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 40px;
+    background-color: rgb(11, 107, 103);
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.nav-logo img{
+width: 120px;
+    }
+
+.Nav{
+  display: flex;
+  gap: 35px;
+  list-style: none;
+}
+
+.Nav li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Nav li a:hover {
+  color: #b2f1ed;
+}
+.login-btn {
+  background-color: #e8f6f5;
+  color: #0b6b67;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
